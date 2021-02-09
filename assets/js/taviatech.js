@@ -96,4 +96,4 @@ $('.scroll').on('click', function (e) {
 
     AOS.init();
 
-    alert('james');
+
