@@ -1,0 +1,71 @@
+$firstClr: #024668;
+$secondClr:#00AFEF;
+$textClr: #575757;
+$lightgray: #A1A1A1;
+$verylightgray: #F8F8F8;
+
+@mixin vertical-line ($color, $height, $mt) {
+    display: inline-block;
+    border-left: 1px solid $color;
+    margin: 0 50%;
+    margin-top: $mt;
+    height: $height;
+
+}
+
+@mixin title {
+
+    .vertical-line {
+        @include vertical-line ($secondClr, 20px, 0)
+    }
+
+    p {
+        color: $firstClr;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+}
+
+@mixin h2 ($color,  $mb){
+    color: $color;
+    font-weight: 600;
+    max-width: 860px;
+    margin: auto;
+    margin-bottom: $mb;
+    font-size: 30px;
+
+}
+
+@mixin h3 ($color, $mb){
+    color: $color;
+    font-weight: 600;
+    max-width: 860px;
+    margin: auto;
+    margin-bottom: $mb;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+@mixin  smallHeader($color, $mb) {
+    color: $color;
+    font-weight: 600;
+    max-width: 860px;
+    margin: auto;
+    margin-bottom: $mb;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+@mixin  smallText($color) {
+    color: $color;
+    font-weight: 400;
+    max-width: 860px;
+    margin: auto;
+    font-size: 14px;
+    
+}
+
+
+
