@@ -1,0 +1,86 @@
+body {
+    font-size: 15px;
+    font-family: 'Zilla Slab', serif;
+  }
+  
+  .secondary-menu-container {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  
+  .bg {
+    background: white;
+    width: 100%;
+    height: 100px;
+    opacity: 0;
+  }
+  
+  .show {
+    opacity: 0.7;
+  }
+  
+  .transition {
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+  }
+  
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .menubar {
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+  }
+  
+  .menu-options .menu-item .nav-link {
+    padding-right: 0.8rem !important;
+    text-align: center;
+    font-size: 14px;
+    color: #555555;
+    font-size: 16px;
+  }
+  
+  .menu-options .active {
+    color: black;
+    font-weight: 600;
+  }
+
+
+
+  
+.contact-us{
+    margin-top: 30vh;
+    .heading{
+        .title{
+           font-size: 16px;
+           
+        }
+        .details{
+            font-size: 40px;
+            max-width: 800px;
+            margin: auto;
+            margin-top: 20px;
+            font-weight: 300;
+            a{
+                color: #487d92;
+            }
+
+        }
+        .call{
+            
+            font-size: 40px;
+            max-width: 800px;
+            margin: auto;
+            margin-top:5vh;
+            font-weight: 300;
+            a{
+                color: #487d92;
+            }
+        }
+    }
+}
