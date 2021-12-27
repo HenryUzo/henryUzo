@@ -155,14 +155,19 @@ a {}
                 .jobs{
                     .image{
                         width: 410px;
-                        height: 250px;
+                        height: 255px;
                         overflow: hidden;
                        border-radius: 15px;
+                       @media (max-width:400px) {
+
+                        width: 100%;
+                           
+                       }
                         img{
                             width: 100%;
                            
                            &:hover{
-                               width: 105%;
+                            //    width: 105%;
                              
                            }
                         }

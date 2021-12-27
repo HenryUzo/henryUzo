@@ -121,17 +121,19 @@ body {
 
 .section-2 .jobs-done .job-category .job-category-jobs .jobs .image {
   width: 410px;
-  height: 250px;
+  height: 255px;
   overflow: hidden;
   border-radius: 15px;
 }
 
-.section-2 .jobs-done .job-category .job-category-jobs .jobs .image img {
-  width: 100%;
+@media (max-width: 400px) {
+  .section-2 .jobs-done .job-category .job-category-jobs .jobs .image {
+    width: 100%;
+  }
 }
 
-.section-2 .jobs-done .job-category .job-category-jobs .jobs .image img:hover {
-  width: 105%;
+.section-2 .jobs-done .job-category .job-category-jobs .jobs .image img {
+  width: 100%;
 }
 
 .section-2 .jobs-done .job-category .job-category-jobs .jobs .label {
